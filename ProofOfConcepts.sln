@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ", "RabbitMQ\RabbitMQ.csproj", "{2B260A1A-636B-4F40-B3C3-BF165659B523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis", "Redis\Redis.csproj", "{777416CF-77D5-4F6E-BCF5-A875BFEA5D76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongo", "Mongo\Mongo.csproj", "{DF2A9E0D-B294-4CE2-952A-9CAA435D47EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postgres", "Postgres\Postgres.csproj", "{DAD19340-BB7B-47ED-B9FD-3544AF3F6C43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vault", "Vault\Vault.csproj", "{9EA92E85-0D2A-4818-9401-D3EDAF6645AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grafana", "Grafana\Grafana.csproj", "{05EF6D5A-71AF-4D38-A707-BE3641BD6B32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B260A1A-636B-4F40-B3C3-BF165659B523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B260A1A-636B-4F40-B3C3-BF165659B523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B260A1A-636B-4F40-B3C3-BF165659B523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B260A1A-636B-4F40-B3C3-BF165659B523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{777416CF-77D5-4F6E-BCF5-A875BFEA5D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777416CF-77D5-4F6E-BCF5-A875BFEA5D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777416CF-77D5-4F6E-BCF5-A875BFEA5D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777416CF-77D5-4F6E-BCF5-A875BFEA5D76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF2A9E0D-B294-4CE2-952A-9CAA435D47EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF2A9E0D-B294-4CE2-952A-9CAA435D47EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF2A9E0D-B294-4CE2-952A-9CAA435D47EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF2A9E0D-B294-4CE2-952A-9CAA435D47EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD19340-BB7B-47ED-B9FD-3544AF3F6C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD19340-BB7B-47ED-B9FD-3544AF3F6C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD19340-BB7B-47ED-B9FD-3544AF3F6C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD19340-BB7B-47ED-B9FD-3544AF3F6C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EA92E85-0D2A-4818-9401-D3EDAF6645AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA92E85-0D2A-4818-9401-D3EDAF6645AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA92E85-0D2A-4818-9401-D3EDAF6645AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA92E85-0D2A-4818-9401-D3EDAF6645AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05EF6D5A-71AF-4D38-A707-BE3641BD6B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05EF6D5A-71AF-4D38-A707-BE3641BD6B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05EF6D5A-71AF-4D38-A707-BE3641BD6B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05EF6D5A-71AF-4D38-A707-BE3641BD6B32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
