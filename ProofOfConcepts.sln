@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vault", "Vault\Vault.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grafana", "Grafana\Grafana.csproj", "{05EF6D5A-71AF-4D38-A707-BE3641BD6B32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureKeyVault", "AzureKeyVault\AzureKeyVault.csproj", "{201102D8-B8A9-4312-8A2B-8567BB43D332}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{05EF6D5A-71AF-4D38-A707-BE3641BD6B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05EF6D5A-71AF-4D38-A707-BE3641BD6B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05EF6D5A-71AF-4D38-A707-BE3641BD6B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{201102D8-B8A9-4312-8A2B-8567BB43D332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201102D8-B8A9-4312-8A2B-8567BB43D332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201102D8-B8A9-4312-8A2B-8567BB43D332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201102D8-B8A9-4312-8A2B-8567BB43D332}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
