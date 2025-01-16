@@ -13,9 +13,9 @@ internal abstract class Program
 
         var factory = new ConnectionFactory
         { 
-            HostName = "rabbit.gulando.com",
-            UserName = "lilandx",
-            Password = "mZ3ZxWbu"
+            HostName = "rabbit.server.com",
+            UserName = "user",
+            Password = "password"
         };
 
         using var connection = factory.CreateConnection();
