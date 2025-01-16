@@ -8,7 +8,7 @@ namespace Grafana
         {
             const string baseUrl = "http://grafana.gulando.com";
             const string username = "admin";
-            const string password = "3+9^Kx<9^@G;";
+            const string password = "password here";
 
             var authHeader = Convert.ToBase64String(System.Text.Encoding.ASCII.GetBytes($"{username}:{password}"));
             
