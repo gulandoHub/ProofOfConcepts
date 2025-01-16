@@ -7,7 +7,7 @@ internal abstract class Program
 {
     private static void Main()
     {
-        const string connectionString = "mongodb://lilandx:sHQmHkFY7@mongo.gulando.com:27017";
+        const string connectionString = "mongodb://user:password@mongo.gulando.com:27017";
         const string databaseName = "testdb";
         const string collectionName = "testcollection";
         
