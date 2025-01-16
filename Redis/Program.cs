@@ -11,9 +11,9 @@ namespace Redis
             {
                 EndPoints =
                 {
-                    "redis.gulando.com:6379"
+                    "redis.server.com:6379"
                 },
-                Password = "LFmD7fwc"
+                Password = "user"
             };
             
             var redis = ConnectionMultiplexer.Connect(configOptions);
