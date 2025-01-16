@@ -10,7 +10,7 @@ namespace Postgres
             {
                 // Connect to the PostgreSQL database
                 Console.WriteLine("Connecting to database");
-                const string connString = "Server=postgres.gulando.com;Port=5432;Database=postgres;UserId=lilandx;Password=HyK98VDu;";
+                const string connString = "Server=postgres.server.com;Port=5432;Database=postgres;UserId=user;Password=password;";
 
                 using var conn = new NpgsqlConnection(connString);
                 conn.Open();
