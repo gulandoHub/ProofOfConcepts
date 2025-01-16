@@ -9,8 +9,8 @@ internal abstract class Program
     private static async Task Main()
     {
         // Vault configuration
-        const string vaultUrl = "https://vault.gulando.com";
-        const string token = "41cP8Z357l02s5O9fJrpHIQE";
+        const string vaultUrl = "https://vault.server.com";
+        const string token = "password";
 
         // Initialize Vault client
         var vaultClientSettings = new VaultClientSettings(vaultUrl, new TokenAuthMethodInfo(token));
