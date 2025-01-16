@@ -4,9 +4,9 @@ using Azure.Security.KeyVault.Secrets;
 const string kvUri = "https://kv-poc-vault-neu.vault.azure.net/";
 
 var client = new SecretClient(new Uri(kvUri), new ClientSecretCredential(
-    "aecc83fe-fa66-4c0a-99c2-dd439c2b1c4d", 
-    "847720d7-088a-45da-8626-fff4c30e8fba", 
-    "plz8Q~lrpnEDTcFbDJizPINXaR2KAOJ-auO7kcuz"));
+    "cred here", 
+    "cred here", 
+    "cred here"));
 
 try
 {
